@@ -50,7 +50,7 @@ const Todo = () => {
 
     const deleteItem = (id) =>{
         const updateItems = add.filter((val)=>{
-            return val.id!=id;
+            return val.id!==id;
         })
 
         setAdd(updateItems);
